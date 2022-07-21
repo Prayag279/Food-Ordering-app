@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity"
+    android:background="@drawable/back_ground"
+    android:orientation="vertical">
+    <LinearLayout
+        android:padding="@dimen/xxsmall"
+        android:layout_gravity="center"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:padding="@dimen/small"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:background="@color/orange"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/paymnets_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/orange"
+                android:paddingTop="@dimen/xsmall"
+                android:onClick="go_back"
+                android:paddingBottom="@dimen/xsmall"
+                android:paddingLeft="@dimen/xsmall"
+                android:paddingRight="@dimen/xsmall"
+                android:src="@drawable/ic_baseline_arrow_back_24"/>
+            <TextView
+                android:id="@+id/order_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:paddingTop="@dimen/xsmall"
+                android:paddingBottom="@dimen/xsmall"
+                android:paddingLeft="@dimen/large1"
+                android:paddingRight="@dimen/large1"
+                android:text="Payment Options"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/payment_option_nobg"/>
+
+    <RadioGroup
+        android:id="@+id/groupradio"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/large"
+        android:paddingRight="@dimen/large"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cod"
+            android:padding="@dimen/meduim"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Cash On Delivery"
+            android:textSize="@dimen/large"/>
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cc_db"
+            android:padding="@dimen/meduim"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Credit Card / Debit Card"
+            android:textSize="@dimen/large"/>
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/upi"
+            android:padding="@dimen/meduim"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="UPI Payments"
+            android:textSize="@dimen/large"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:padding="50dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/paymentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corners"
+            android:gravity="center"
+            android:onClick="payment"
+            android:text="Payment Now"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

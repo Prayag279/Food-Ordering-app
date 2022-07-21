@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutusFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginRight="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="20dp"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           android:textColor="@color/black"
+           android:text="About Us "
+           android:textSize="40dp"
+          />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="38dp"
+           android:layout_marginTop="20dp"
+
+           android:textColor="#CE000000"
+           android:text="Who We Are?"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:textSize="15dp"
+           android:text="Launched in 2022, Our technology platform connects customers, Our restaurant partners by serving customersmultiple needs. Customers use our platform to search and discover food. which supplies high quality ingredients and kitchen products to our restaurant partners"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="38dp"
+           android:layout_marginTop="20dp"
+           android:textColor="#CE000000"
+           android:text="Our Goal"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:text="Our goal is deliver best quality of food in minimum time if our delivery side got some issuse then takeaways process must the be go on .making a pleasant relation betwwen resturant and customer"
+           android:textSize="15dp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="38dp"
+           android:layout_marginTop="20dp"
+           android:textColor="#CE000000"
+           android:text="Social Media"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:text="currently we are not in any soical media because of some private uses and now a days social media is best to attract more customers and knew it so soon we are launching our social medai account"
+           android:textSize="15dp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="38dp"
+           android:layout_marginTop="20dp"
+           android:textColor="#CE000000"
+           android:text="Staff"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+            android:text="we have well skilled staff which include 4 chief and 8 workers who handle the work stuff online and offline mostly staff can easily communicate with customers and deal with their need according to the odwer"
+           android:textSize="15dp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="38dp"
+           android:layout_marginTop="20dp"
+           android:textColor="#CE000000"
+           android:text="Quality Food"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginBottom="40dp"
+           android:text="We arre serving the best qulaity food we have 2 fridge to store some unused food.after the order we take a lil bit more time so that our chief can make to food with Patience and care and that food can satisfy cusomer s tounge"
+           android:textSize="15dp" />
+
+
+
+   </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
