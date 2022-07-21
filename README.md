@@ -12,7 +12,6 @@ __Concepts Which used :-__
 <br/>
 
 __About App :-__<br>
-
 right now it has 2 sides User side,Manager side.<br/>
 
 in __User Side__ user can log in sign up and add food item in __My Cart__ and then aftter placing order from the cart all the orderd item goes to the __My Order__ currently only cash on delivery option available.<br/>
