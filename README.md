@@ -1,5 +1,5 @@
 # Food-Ordering-app
-__Language - Java(Android Studio)__
+__Language - Android(using Android Studio)__
 <br><br>
 __Concepts Which used :-__
 <br/>Firebase Database
